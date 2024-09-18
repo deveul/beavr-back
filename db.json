@@ -1,0 +1,66 @@
+{
+  "policies": [
+    {
+      "id": "1",
+      "name": "Privacy Policy",
+      "description": "This is the privacy policy.",
+      "documentIds": [1, 2]
+    },
+    {
+      "id": "2",
+      "name": "Terms of Service",
+      "description": "This is the terms of service policy.",
+      "documentIds": [3]
+    },
+    {
+      "id": "3",
+      "name": "Code of conduct",
+      "description": "This is the code of conduct policy.",
+      "documentIds": [3]
+    }
+  ],
+  "documents": [
+    {
+      "id": "2",
+      "policyId": 1,
+      "createdAt": "2024-01-01T10:00:00Z",
+      "content": "This is the 2024 version of the Privacy Policy.",
+      "approved": true
+    },
+    {
+      "id": "1",
+      "policyId": 1,
+      "createdAt": "2023-01-01T10:00:00Z",
+      "content": "This is the 2023 version of the Privacy Policy.",
+      "approved": true
+    },
+    {
+      "id": "3",
+      "policyId": 1,
+      "createdAt": "2025-01-01T10:00:00Z",
+      "content": "This is the 2025 version of the Privacy Policy.",
+      "approved": true
+    },
+    {
+      "id": "811d",
+      "policyId": 3,
+      "content": "<p style=\"text-align: center\">Hello World! 🌎️</p><p></p><p>This is the Content</p>",
+      "approved": false,
+      "createdAt": "2024-09-18T00:01:53.806Z"
+    },
+    {
+      "id": "afdd",
+      "policyId": "2",
+      "content": "<div><p style=\"text-align: center\"><strong>Titre perso</strong></p><p></p><p>personal content</p></div>",
+      "approved": true,
+      "createdAt": "2024-09-18T01:10:48.617Z"
+    },
+    {
+      "id": "9c13",
+      "policyId": "2",
+      "content": "<p style=\"text-align: center\"><strong>Conditions générales</strong></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"><strong>Ceci est une ébauche des conditions</strong></p><p style=\"text-align: center\"></p><p>Et ceci est le contenu des conditions mise à jour.</p><p></p>",
+      "approved": true,
+      "createdAt": "2024-09-18T08:30:33.766Z"
+    }
+  ]
+}
